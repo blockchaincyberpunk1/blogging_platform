@@ -1,0 +1,51 @@
+/* Custom styles for your blogging platform */
+
+/* Change the background color of the header */
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+/* Style the navigation links in the header */
+nav ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+/* Add a subtle background color to the main content area */
+main {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+/* Style the "Create Post" form */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+/* Style the "Read More" buttons */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Customize the appearance of cards */
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add spacing between cards on the home page */
+.card {
+    margin-bottom: 20px;
+}
